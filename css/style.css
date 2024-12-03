@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Yuji+Mai&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -14,20 +14,19 @@ body {
   background-color: black;
   color: #00ff00;
   padding: 3rem;
+  font-family: "Mountain of Christmas";
 }
 h3 {
   text-align: right;
-  font-family: Mountain-of-Christmas;
 }
 h1 {
   text-align: center;
-  color: #00ff00;
 }
 h2 {
   text-align: center;
   padding: 1rem;
 }
-h2 :hover {
+h2:hover {
   font-size: 3rem;
 }
 p {
@@ -81,5 +80,14 @@ h1:hover {
 a {
   padding: 1rem;
 }
-@media {
+@media (min-width: 400px) {
+  .wrapper {
+    background-color: var(--pine);
+    grid-template-columns: 1fr 1fr;
+  }
 }
+@media (min-width: 701px) {
+  .wrapper {
+    background-color: var(--carrot);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
