@@ -80,3 +80,9 @@ h1:hover {
 a {
   padding: 1rem;
 }
+iframe {
+  padding: 2rem;
+}
+video {
+  justify-content: center;
+}
