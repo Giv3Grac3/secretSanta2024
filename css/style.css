@@ -15,6 +15,8 @@ body {
   color: #00ff00;
   padding: 3rem;
   font-family: "Mountains of Christmas";
+  border: dotted 6px #85bb65;
+  border-radius: 50%;
 }
 h3 {
   text-align: right;
@@ -24,7 +26,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 h2:hover {
   font-size: 3rem;
@@ -38,7 +40,7 @@ a {
   border-style: double;
   border-radius: 50%;
   border-color: #00ff00;
-  border-width: 10px;
+  border-width: 8px;
 }
 header {
   display: flex;
@@ -83,6 +85,6 @@ a {
 iframe {
   padding: 2rem;
 }
-video {
-  justify-content: center;
+html {
+  margin: 3rem;
 }
