@@ -12,11 +12,22 @@ img {
 }
 body {
   background-color: black;
+  /* background-image: url("../images/Queen.jpg");
+  background-repeat: no-repeat; */
   color: #00ff00;
   padding: 3rem;
   font-family: "Mountains of Christmas";
   border: dotted 6px #85bb65;
   border-radius: 50%;
+}
+
+.background-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-img {
+  width: 200px;
 }
 h3 {
   text-align: right;
@@ -87,4 +98,8 @@ iframe {
 }
 html {
   margin: 3rem;
+}
+.center {
+  align-items: center;
+  border-style: none;
 }
